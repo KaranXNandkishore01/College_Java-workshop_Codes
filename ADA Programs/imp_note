@@ -1,0 +1,44 @@
+"NOTE:"
+#Ques.1- Introduction to Algorithm
+Definition: An algorithm is a step-by-step procedure or formula for solving a problem or accomplishing a task. It consists of a finite sequence of well-defined instructions that can be executed to achieve a specific goal.
+Types of Algorithms:
+1. Brute Force Algorithms:
+ These algorithms try all possible solutions to find the best one. They are simple but often inefficient.
+2. Divide and Conquer Algorithms:
+ These algorithms break a problem into smaller subproblems, solve each subproblem independently, and combine their solutions to solve the original problem.
+3. Dynamic Programming Algorithms:
+ These algorithms solve problems by breaking them down into simpler subproblems and storing the results of these subproblems to avoid redundant computations.
+4. Greedy Algorithms:
+ These algorithms make the locally optimal choice at each stage with the hope of finding a global optimum. They are often used for optimization problems.
+5. Backtracking Algorithms:
+ These algorithms build a solution incrementally, abandoning solutions that fail to satisfy the problem's constraints at any point. They are often used for constraint satisfaction problems.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+#Ques.2- Divide and Conquer Algorithm
+Definition: Divide and conquer is an algorithm design paradigm that works by recursively breaking down a problem into two or more subproblems of the same or related type, until these become simple enough to be solved directly. The solutions to the subproblems are then combined to give a solution to the original problem.
+Steps:
+1. Divide: Break the problem into smaller subproblems.
+2. Conquer: Solve the subproblems recursively.
+3. Combine: Merge the solutions of the subproblems to get the final solution.
+Example:
+Algorithm                                             Usecase
+1. Merge Sort                                         Sorting an array or list of elements.
+2. Quick Sort                                         Sorting an array or list of elements.
+3. Binary Search                                      Searching for an element in a sorted array.
+4. Strassen's Algorithm for Matrix Multiplication:    Multiplying two matrices more efficiently than the standard algorithm.
+5. Fast Fourier Transform (FFT):                      Efficien  widely used in signal processing and other applications.
+                                                      tly computing the discrete Fourier transform and its inverse,
+    
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+#Ques.3- Time Complexity
+Definition: Time complexity is a computational complexity that describes the amount of time it takes to run an algorithm as a function of the length of the input. It provides an upper bound on the running time of an algorithm, allowing us to analyze its efficiency.
+Big -O Notation:
+
+Time complexity             Name                 Example
+1. O(1)                     Constant Time       Accessing an element in an array by index.
+2. O(log n)                 Logarithmic Time    Binary search in a sorted array.
+3. O(n)                     Linear Time         Traversing an array or list.
+4. O(n log n)              Linearithmic Time   Merge sort or quicksort algorithms.
+5. O(n^2)                  Quadratic Time      Bubble sort or insertion sort algorithms.
